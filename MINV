@@ -1,6 +1,9 @@
 set echo 1
 set linkname $
 set keeptype s16
+filetype =.asm src 3
+filetype =.macros src 3
+filetype linv src 6
 asm SPRITES.ASM
 asm SHAPES.01.ASM   
 asm SOUND.ASM       
