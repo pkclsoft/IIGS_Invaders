@@ -1,0 +1,40 @@
+ MACRO
+&lab _DrawString
+&lab ldx #$A504
+ jsl $E10000
+ MEND
+ MACRO
+&lab _MoveTo
+&lab ldx #$3A04
+ jsl $E10000
+ MEND
+ MACRO
+&lab _PaintRect
+&lab ldx #$5404
+ jsl $E10000
+ MEND
+ MACRO
+&lab _SetBackColor
+&lab ldx #$A204
+ jsl $E10000
+ MEND
+ MACRO
+&lab _SetColorEntry
+&lab ldx #$1004
+ jsl $E10000
+ MEND
+ MACRO
+&lab _SetForeColor
+&lab ldx #$A004
+ jsl $E10000
+ MEND
+ MACRO
+&lab _SetSolidPenPat
+&lab ldx #$3704
+ jsl $E10000
+ MEND
+ MACRO
+&lab _StringWidth
+&lab ldx #$A904
+ jsl $E10000
+ MEND

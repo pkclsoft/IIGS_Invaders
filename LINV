@@ -1,0 +1,3 @@
+set keepname $
+set keeptype s16
+link invade sprites shapes.01 sound title mouse drsprites keep=invaders

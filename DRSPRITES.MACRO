@@ -1,0 +1,40 @@
+ MACRO
+&lab _Long2Dec
+&lab ldx #$270B
+ jsl $E10000
+ MEND
+ MACRO
+&lab _FWEntry
+&lab ldx #$2403
+ jsl $E10000
+ MEND
+ MACRO
+&lab _DrawString
+&lab ldx #$A504
+ jsl $E10000
+ MEND
+ MACRO
+&lab _HideCursor
+&lab ldx #$9004
+ jsl $E10000
+ MEND
+ MACRO
+&lab _InitCursor
+&lab ldx #$CA04
+ jsl $E10000
+ MEND
+ MACRO
+&lab _MoveTo
+&lab ldx #$3A04
+ jsl $E10000
+ MEND
+ MACRO
+&lab _Random
+&lab ldx #$8604
+ jsl $E10000
+ MEND
+ MACRO
+&lab _SetColorEntry
+&lab ldx #$1004
+ jsl $E10000
+ MEND

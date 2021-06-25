@@ -1,0 +1,11 @@
+set echo 1
+set linkname $
+set keeptype s16
+asm SPRITES.ASM
+asm SHAPES.01.ASM   
+asm SOUND.ASM       
+asm INVADE.ASM      
+asm TITLE.ASM       
+asm MOUSE.ASM       
+asm DRSPRITES.ASM   
+linv
