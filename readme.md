@@ -1,12 +1,14 @@
 # GS Invaders v1.0
 
+![Title page](https://github.com/pkclsoft/IIGS_Invaders/blob/1ed24eabbe103f4d685f28b1d560eebf13a726c9/screenshot1.png)
+
 ## Designed and written by Peter C. Easdown, PKCLSoft, Australia
 
 I wrote this game back in 1989 when I was wanting to create something new for my Apple IIGS.  It's all written
 in ORCA/M Assembler, but uses sprites that I created with a simple editor created with TML Pascal (I've also
 made the code for that editor available on Githib after porting it to ORCA/Pascal).
 
-screenshot1
+![Game screen](https://github.com/pkclsoft/IIGS_Invaders/blob/1ed24eabbe103f4d685f28b1d560eebf13a726c9/screenshot2.png)
 
 This was originally put up on AOL from memory as shareware.  Needless to say I made $0 from it.  But it was fun to make.
 I'm putting the code up here for posterity.
@@ -110,3 +112,5 @@ The brighter the red, the more bonus points you get.
 When there is only one invader left on the screen, it does not simply walk horizontaly.  It begins travelling at a diagonal towards the bottom of the screen.
 
 Enjoy!
+
+![Title page](https://github.com/pkclsoft/IIGS_Invaders/blob/1ed24eabbe103f4d685f28b1d560eebf13a726c9/screenshot1.png)
