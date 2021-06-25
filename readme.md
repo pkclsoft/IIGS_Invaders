@@ -112,5 +112,3 @@ The brighter the red, the more bonus points you get.
 When there is only one invader left on the screen, it does not simply walk horizontaly.  It begins travelling at a diagonal towards the bottom of the screen.
 
 Enjoy!
-
-![Video](https://github.com/pkclsoft/IIGS_Invaders/blob/ce9c0e28dd0d83ae8472fa1212e185e81aef4390/GS%20Invaders.mp4)
