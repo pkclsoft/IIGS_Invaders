@@ -4,11 +4,11 @@ set keeptype s16
 filetype =.asm src 3
 filetype =.macros src 3
 filetype linv src 6
-asm SPRITES.ASM
-asm SHAPES.01.ASM   
-asm SOUND.ASM       
-asm INVADE.ASM      
-asm TITLE.ASM       
-asm MOUSE.ASM       
-asm DRSPRITES.ASM   
+assemble SPRITES.ASM
+assemble SHAPES.01.ASM   
+assemble SOUND.ASM       
+assemble INVADE.ASM      
+assemble TITLE.ASM       
+assemble MOUSE.ASM       
+assemble DRSPRITES.ASM   
 linv
